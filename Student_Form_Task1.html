@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!--KARTK SHARMA(kartiks1309)
+    IIT2020128-->
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <a href="https://www.facebook.com/geekhaveniiita/" target="_blank">Home</a>&ensp;|
+        <a href="https://www.facebook.com/geekhaveniiita/" target="_blank">Contact</a>&ensp;|
+        <a href="https://www.facebook.com/geekhaveniiita/" target="_blank">About</a>&ensp;|
+        <a href="https://www.facebook.com/geekhaveniiita/" target="_blank">Projects</a>&ensp;
+        <form name="Student Registration Form" method="GET">
+            <h1>Student Registration Form</h1>
+            <br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label for="dob">DOB:</label><br>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            <label for="fthn">Father's name:</label><br>
+            <input type="text" id="fthn" name="fthn">
+            <br><br>
+            <label for="doc">Document:</label><br>
+            <input type="radio" id="aadhar" name="doc" value="aadhar">
+            <label for="aadhar">Aadhar</label><br>
+            <input type="radio" id="drv" name="doc" value="drv">
+            <label for="drv">Driving License</label><br>
+            <input type="radio" id="other" name="doc" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input list="gender">
+            <datalist id="gender">
+                <option value="Male">
+                <option value="Female">
+                <option value="Other">
+            </datalist>
+            <br><br>
+            <label for="desc">Description:</label><br>
+            <textarea name="desc"></textarea>
+            <br><br>
+            <input type="reset" value="Clear entries">
+            <br><br>
+            <input type="checkbox"> Confirm
+            <br>
+            <input type="submit" value="Submit Form">
+        </form>
+        <br><br>
+        Made By Geekhaven
+        <i class="fa fa-address-book" aria-hidden="true"></i>
+        <i class="fa fa-envelope-open" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+
+    </body>
+</html>
